@@ -4,9 +4,9 @@ function fillStartWord(startWord, word) {
     return undefined
   }
   else if(word.includes(startWord)){
-    return;
+    return word;
   }else{
     return startWord.concat(word)
   }
-}
+}                       
 module.exports = fillStartWord
